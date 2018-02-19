@@ -1,0 +1,56 @@
+/* .viz {
+  border: 3px solid black;
+} */
+
+.dot {
+  stroke: #000;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 8px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.title {
+  font-family: "Roboto", "Helvetica", serif;
+  font-size: 32px;
+  text-anchor: middle;
+  font-weight: bold;
+}
+
+.legend-text {
+  font-family: "Roboto", "Helvetica", serif;
+}
+
+.zoom {
+  cursor: move;
+  fill: none;
+  pointer-events: all;
+}
+
+.legend-box {
+  border: 1px solid black;
+}
+
+.controls, #reset {
+  font-family: "Roboto", "Helvetica", serif;
+  margin: 0 2.5px 0 2.5px;
+}
+
+svg, div {
+  display: block;
+  margin: auto;
+}
+
+div {
+  width: 2000px;
+  border-radius: 10px;
+}
